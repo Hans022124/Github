@@ -11,7 +11,7 @@ select warna,pemilik from DESC_mobil where warna='hitam' and pemilik='ibrahim';
 
 ## Hasil
 
-![A.jpg](ASETSELECT/A.JPG)
+![select](A.jpg)
 
 ## Analisis
 
@@ -35,7 +35,9 @@ select warna,pemilik from DESC_mobil where warna='Hitam' or pemilik='Ibrahim';
 ```
 
 ## Hasil
-![B.jpg](ASETSELECT/B.JPG)
+
+![S](B.jpg)
+
 ### Analisis
 
 - Perintah ini akan mengembalikan semua baris dari tabel `DESC_mobil` di mana `warna` adalah 'Hitam' atau `pemilik` adalah 'Ibrahim' atau keduanya.
@@ -60,7 +62,7 @@ select * from DESC_mobil where harga_rental between 100000 and 150000;
 
 
 ## Hasil
-![A](ASETSELECT/C.jpg)
+![s](C.jpg)
 ## Analisis
 - Perintah ini akan mengembalikan semua baris dari tabel `DESC_mobil` di mana `harga_rental` berada di antara 100000 dan 150000, termasuk kedua nilai batas tersebut.
 - Hasil yang dikembalikan akan mencakup semua kolom dari tabel `DESC_mobil` untuk setiap baris yang memenuhi kondisi `harga_rental` tersebut.
@@ -83,7 +85,7 @@ select * from DESC_mobil where harga_rental not between 100000 and 150000;
 
 
 ## Hasil
-![D.jpg](ASETSELECT/D.JPG))
+![s](D.jpg)
 ## Analisis
 - Perintah ini akan mengembalikan semua baris dari tabel `DESC_mobil` di mana `harga_rental` tidak berada di antara 100000 dan 150000.
 - Hasil yang dikembalikan akan mencakup semua kolom dari tabel `DESC_mobil` untuk setiap baris yang memenuhi kondisi `harga_rental` tersebut.
@@ -104,7 +106,7 @@ select * from DESC_mobil where harga_rental<=50000;
 
 
 ## Hasil
-![E.jpg](ASETSELECT/E.JPG)
+![s](E.jpg)
 ## Analisis
 
 1. **`SELECT *`**: Ini adalah perintah untuk memilih semua kolom dari tabel yang ditentukan.
@@ -126,7 +128,7 @@ select * from DESC_mobil where harga_rental>=50000;
 
 
 ## Hasil
-![F.jpg](ASETSELECT/F.JPG)
+![s](F.jpg)
 ## Analisis
 
 1. **Penamaan Tabel**: Penggunaan `DESC_mobil` sebagai nama tabel bisa menyebabkan kebingungan karena `DESC` adalah kata kunci SQL yang biasanya digunakan untuk menentukan urutan pengurutan secara menurun. Namun, dalam konteks ini, `DESC_mobil` diasumsikan sebagai nama tabel yang valid.
@@ -158,9 +160,11 @@ select * from DESC_mobil where harga_rental!=50000;
 
 
 ## Hasil1
-![G.jpg](ASETSELECT/G.JPG)
+![s](G.jpg)
+
 ## Hasil2
-![H.jpg](ASETSELECT/H.JPG)
+![s](H.jpg)
+
 ## Analisis1
 
 1. **Penamaan Tabel**: Penggunaan `DESC_mobil` sebagai nama tabel bisa menyebabkan kebingungan karena `DESC` adalah kata kunci SQL yang biasanya digunakan untuk menentukan urutan pengurutan secara menurun. Namun, dalam konteks ini, `DESC_mobil` diasumsikan sebagai nama tabel yang valid.
@@ -191,7 +195,7 @@ select pemilik from DESC_mobil where no_plat="DD 2650 XY";
 ```
 
 ## Hasil
-![ASETSELECT/I.jpg](ASETSELECT/I.JPG)
+![s](I.jpg)
 ## Analisis
 1. `select` query yang digunakan untuk menampilkan sebuah table
 2. `pemilik` nama kolom yang dimana hanya isi dari kolom ini yang akan di tampilkan
@@ -220,7 +224,7 @@ select * from DESC_mobil where warna in('Hitam','Silver');
 
 
 ### Hasil
-![J.jpg](ASETSELECT/J.JPG)
+![s](J.jpg)
 ### Analisis
 1. `SELECT *` artinya kita akan mengambil semua kolom dari tabel "mobil".
 2. `FROM mobil` artinya kita akan mengambil data dari tabel "mobil".
@@ -246,7 +250,7 @@ and harga_rental = 50000;
 ```
 
 ### Hasil
-![K.jpg](ASETSELECT/K.JPG)
+![s](K.jpg)
 ### Analisis
 1.  `SELECT *` artinya kita akan mengambil semua kolom dari tabel "mobil".
 2. `FROM mobil` artinya kita akan mengambil data dari tabel "mobil".
@@ -275,7 +279,7 @@ or harga_rental = 50000;
 
 
 ### Hasil
-![L.jpg](ASETSELECT/L.JPG)
+![s](L.jpg)
 ### Analisis
 - `SELECT *`: Memilih semua kolom dari tabel.
 - `FROM mobil`: Menunjukkan bahwa data diambil dari tabel `mobil`.
@@ -300,7 +304,8 @@ or harga_rental > 50000;
 ```
 
 ### Hasil1
-![M.jpg](ASETSELECT/M.JPG)
+
+![s](M.jpg)
 ### Analisis1
 1. `SELECT *` artinya kita akan mengambil semua kolom dari tabel "mobil".
 2. `FROM mobil` artinya kita akan mengambil data dari tabel "mobil".
@@ -352,7 +357,7 @@ where pemilik like 'Ib%';
 ```
 
 ### Hasil
-![O.jpg](ASETSELECT/O.JPG)
+![s](O.jpg)
 ### Analisis
 1. `SELECT *` artinya kita akan mengambil semua kolom dari tabel "mobil".
 2. `FROM mobil` artinya kita akan mengambil data dari tabel "mobil".
@@ -378,7 +383,7 @@ where pemilik like '%m';
 
 
 ### Hasil
-![ASETSELECT/P.jpg](ASETSELECT/P.JPG)
+![s](P.jpg)
 ### Analisis
 1. `SELECT *` artinya kita akan mengambil semua kolom dari tabel "mobil".
 2. `FROM mobil` artinya kita akan mengambil data dari tabel "mobil".
@@ -405,7 +410,7 @@ where pemilik like 'b%m';
 
 
 ### Hasil
-![Q.jpg](ASETSELECT/Q.JPG)
+![S](Q.jpg)
 ### Analisis
 1. `SELECT *` artinya kita akan mengambil semua kolom dari tabel "mobil".
 2. `FROM mobil` artinya kita akan mengambil data dari tabel "mobil".
@@ -429,7 +434,7 @@ where pemilik like 'I__';
 
 
 ### Hasil1
-![R.jpg](ASETSELECT/R.JPG)
+![S](R.jpg)
 ### Analisis1
 1. `SELECT *` artinya kita akan mengambil semua kolom dari tabel "mobil".
 2. `FROM mobil` artinya kita akan mengambil data dari tabel "mobil".
@@ -453,7 +458,7 @@ where pemilik like '___';
 
 
 ### Hasil2
-![ASETSELECT/S.jpg](ASETSELECT/S.JPG)
+![s](S.jpg)
 ### Analisis
 1. `SELECT *` artinya kita akan mengambil semua kolom dari tabel "mobil".
 2. `FROM mobil` artinya kita akan mengambil data dari tabel "mobil".
@@ -477,7 +482,8 @@ where pemilik like '__r%';
 
 
 ### Hasil1
-![T.jpg](ASETSELECT/T.JPG)
+![s](T.jpg)
+
 ### Analisis1
 1. `SELECT *` artinya kita akan mengambil semua kolom dari tabel "mobil".
 2. `FROM mobil` artinya kita akan mengambil data dari tabel "mobil".
@@ -498,7 +504,8 @@ where pemilik like '_b%';
 ```
 
 ### Hasil
-![U.jpg](ASETSELECT/U.JPG)
+![s](U.jpg)
+
 ### Analisis
 1. `SELECT *` artinya kita akan mengambil semua kolom dari tabel "mobil".
 2. `FROM mobil` artinya kita akan mengambil data dari tabel "mobil".
@@ -517,9 +524,8 @@ select * from nama_table where nama_kolom not like  'nilai kolom'
 ```mysql
 select * from DESC_mobil where peminjam not like 'A%';
 ```
-#### Hasil
-![V.jpg](ASETSELECT/V.JPG)
-
+### Hasil
+![s](V.jpg)
 ### Analisis
 1. `SELECT *`: Memilih semua kolom dari tabel 'mobil'.
 2. `FROM mobil`: Menentukan tabel yang digunakan untuk mengambil data, dalam hal ini tabel 'mobil'.
@@ -541,7 +547,7 @@ SELECT * FROM DESC_mobil WHERE peminjam IS NULL;
 ```
 
 ### Hasil
-![W.jpg](ASETSELECT/W.JPG)
+![s](W.jpg)
 ### Analisis
 1. `SELECT *`: Memilih semua kolom dari tabel 'mobil'.
 2. `FROM mobil`: Menentukan tabel yang digunakan untuk mengambil data, yaitu tabel 'mobil'.
@@ -561,7 +567,7 @@ SELECT * FROM DESC_mobil WHERE peminjam IS NOT NULL;
 ```
 
 ### Hasil
-![X.jpg](ASETSELECT/X.JPG)
+![s](X.jpg)
 ### Analisis
 - `SELECT *`: Memilih semua kolom dari tabel.
 - `FROM mobil`: Menunjukkan bahwa data diambil dari tabel `mobil`.
@@ -582,7 +588,8 @@ SELECT * FROM DESC_mobil ORDER BY pemilik ASC;
 ```
 
 ## Hasil
-![Screenshot_20240514_234654.jpg](ASETSELECT/Y.JPG)
+![s](Y.jpg)
+
 ## Analisis
 1. `SELECT *`: Memilih semua kolom dari tabel 'mobil'.
 2. `FROM mobil`: Menunjukkan tabel yang digunakan untuk mengambil data, yaitu tabel 'mobil'.
@@ -602,7 +609,7 @@ SELECT * FROM DESC_mobil ORDER BY pemilik DESC;
 ```
 
 ## Hasil 2
-![Z.jpg](ASETSELECT/Z.JPG)
+![s](Z.jpg)
 ## Analisis 2
 1. `SELECT *`: Memilih semua kolom dari tabel 'mobil'.
 2. `FROM mobil`: Menunjukkan tabel yang digunakan untuk mengambil data, yaitu tabel 'mobil'.
@@ -623,7 +630,7 @@ SELECT DISTINCT(pemilik) FROM DESC_mobil;
 ```
 
 ## Hasil
-![AA.jpg](ASETSELECT/AA.JPG)
+![s](AA.jpg)
 ## Analisis
 1. `SELECT DISTINCT(pemilik)`: Memilih nilai unik dari kolom 'pemilik'. Penggunaan `DISTINCT` menghilangkan duplikat dan hanya mengembalikan nilai unik.
     
@@ -643,7 +650,7 @@ SELECT DISTINCT(harga_rental) FROM DESC_mobil ORDER BY harga_rental DESC;
 ```
 
 ## Hasil 2
-![BB.jpg](ASETSELECT/BB.JPG)
+![s](BB.jpg)
 ## Analisis 2
 1. `SELECT DISTINCT(harga_rental)`: Memilih nilai unik dari kolom 'harga_rental'. `DISTINCT` digunakan untuk menghilangkan nilai yang sama dan hanya mengembalikan nilai yang unik.
     
@@ -668,7 +675,7 @@ SELECT CONCAT(pemilik,warna) FROM DESC_mobil;
 ```
 
 ### Hasil
-![CC.jpg](ASETSELECT/CC.JPG)
+![s](CC.jpg)
 ### Analisis
 1. `SELECT CONCAT(pemilik, warna)`: Menggunakan fungsi CONCAT() untuk menggabungkan nilai dari kolom 'pemilik' dan 'warna' menjadi satu nilai. Hasilnya akan berupa nilai yang merupakan penggabungan dari nilai 'pemilik' dan 'warna' tanpa ada pemisah di antaranya.
     
@@ -688,7 +695,7 @@ SELECT CONCAT_WS("-",no_plat,no_mesin,id_mobil) FROM DESC_mobil;
 ```
 
 ### Hasil 
-![DD.jpg](ASETSELECT/DD.JPG)
+![s](DD.jpg)
 ### Analisis
 1. `SELECT CONCAT_WS("-", no_plat, no_mesin, id_mobil)`: Menggunakan fungsi CONCAT_WS() untuk menggabungkan nilai dari kolom 'no_plat', 'no_mesin', dan 'id_mobil' dengan pemisah "-" di antara setiap nilai.
     
@@ -708,7 +715,7 @@ SELECT CONCAT_WS("+",pemilik,peminjam) AS COLLAB FROM DESC_mobil;
 ```
 
 ### Hasil
-![EE.jpg](ASETSELECT/EE.JPG)
+![s](EE.jpg)
 ### Analisis
 1. `SELECT CONCAT_WS("+", pemilik, peminjam) AS COLLAB`: Menggunakan fungsi CONCAT_WS() untuk menggabungkan nilai dari kolom 'pemilik' dan 'peminjam' dengan pemisah "+" di antara setiap nilai. Hasilnya diberi alias 'COLLAB'.
     
@@ -726,7 +733,7 @@ CREATE VIEW info_no_plat AS SELECT id_mobil, no_plat, pemilik, peminjam FROM DES
 ```
 
 ## Hasil
-![FF.jpg](ASETSELECT/FF.JPG)
+![s](FF.jpg)
 ## Analisis
 1. `CREATE VIEW info_no_plat AS`: Perintah ini digunakan untuk membuat view baru dengan nama `info_no_plat`.
     
@@ -749,7 +756,7 @@ SELECT * FROM info_no_plat;
 
 
 ## Hasil 2
-![GG.jpg](ASETSELECT/GG.JPG)
+![s](GG.jpg)
 ## Analisis 2
 1. `CREATE VIEW info_no_plat AS`: Perintah ini digunakan untuk membuat view baru dengan nama `info_no_plat`.
     
@@ -769,7 +776,7 @@ DROP VIEW info_no_plat;
 ```
 
 ## Hasil
-![HH.jpg](ASETSELECT/HH.JPG)
+![s](HH.jpg)
 ## Analisis
 - `DROP VIEW`: Ini adalah perintah untuk menghapus view.
 - `info_no_plat`: Nama view yang akan dihapus.
@@ -788,7 +795,7 @@ CREATE VIEW mobil_Tanpa_peminjam AS Select no_plat,peminjam From DESC_mobil WHER
 ```
 
 ### Hasil
-![II.jpg](ASETSELECT/II.JPG)
+![t](II.jpg)
 ### Analisis
 1. `CREATE VIEW mobil_Tanpa_peminjam AS`: Perintah ini digunakan untuk membuat view baru dengan nama `mobil_Tanpa_peminjam`.
     
@@ -807,7 +814,8 @@ CREATE VIEW mobil_Tanpa_peminjam AS Select no_plat,peminjam From DESC_mobil WHER
 UPDATE DESC_mobil SET peminjam = NULL where peminjam =  'Elia';
 ```
 ### Hasil 
-![JJ.jpg](ASETSELECT/JJ.JPG)
+
+![t](JJ.jpg)
 ### Analisis
 1. `UPDATE mobil`: Perintah ini digunakan untuk mengupdate data dalam tabel `mobil`.
     
@@ -842,7 +850,7 @@ SELECT SUM(harga_rental) AS total_harga FROM DESC_mobil;
 
 
 ### Hasil
-![KK.jpg](ASETSELECT/KK.JPG)
+![s](KK.jpg)
 ### Analisis
 - `SELECT SUM(harga_rental)`: Perintah ini digunakan untuk menghitung jumlah total dari nilai kolom `harga_rental` di dalam tabel `mobil`.
 - `AS total_harga`: Menggunakan `AS` untuk memberi alias pada hasil perhitungan, sehingga hasilnya akan disebut sebagai `total_harga`.
@@ -864,7 +872,7 @@ SELECT COUNT(pemilik) AS total_pemilik FROM DESC_mobil;
 ```
 
 ### Hasil
-![LL.jpg](ASETSELECT/LL.JPG)
+![s](LL.jpg)
 ### Analisis
 - `SELECT COUNT(pemilik)`: Perintah ini menghitung jumlah baris dalam tabel `mobil` di mana kolom `pemilik` tidak NULL.
 - `AS total_pemilik`: Memberi nama alias `total_pemilik` pada hasil perhitungan.
@@ -905,7 +913,7 @@ SELECT MIN(harga_rental) AS minimum FROM DESC_mobil;
 ```
 
 ### Hasil
-![NN.jpg](ASETSELECT/NN.JPG)
+![s](NN.jpg)
 ### Analisis
 - `SELECT MIN(harga_rental)`: Perintah ini mengambil nilai minimum dari kolom `harga_rental` di tabel `mobil`.
 - `AS minimum`: Memberikan alias `minimum` pada hasil nilai minimum yang diambil.
@@ -926,8 +934,7 @@ SELECT MAX(harga_rental) AS maximum FROM DESC_mobil;
 ```
 
 ### Hasil
-![OO.jpg](ASETSELECT/OO.JPG)
-
+![s](OO.jpg)
 
 ### Analisis
 - `SELECT MAX(harga_rental)`: Perintah ini mengambil nilai maksimum dari kolom `harga_rental` di tabel `mobil`.
@@ -949,9 +956,7 @@ SELECT AVG(harga_rental) AS rerata FROM DESC_mobil;
 ```
 
 ### Hasil
-![PP.jpg](ASETSELECT/PP.JPG)
-
-
+![s](TT.jpg)
 
 ### Analisis
 - `SELECT AVG(harga_rental)`: Perintah ini menghitung nilai rata-rata dari kolom `harga_rental` di tabel `mobil`.
