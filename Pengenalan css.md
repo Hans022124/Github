@@ -34,7 +34,9 @@
 - `<style>` Tag ini digunakan untuk menyematkan gaya CSS ke dalam dokumen HTML.
 - `<p>` Ini adalah selektor CSS yang memilih semua elemen `<p>` (paragraf) dalam dokumen HTML.
 - `{ color: red; }` - Ini adalah blok deklarasi yang berisi satu properti CSS, yaitu `color`, yang ditetapkan ke nilai `red`. Artinya, semua teks dalam elemen `<p>` akan ditampilkan dengan warna merah.
-![IMAGE](p/p%20pertama.png)
+
+![IMAGE](pertama.jpg)
+
 # Percobaan Kedua CSS
 ## Kode
  ```css
@@ -49,23 +51,24 @@
 ___
 ## backround-color
 Before:
-![Before color.png](p/Before%20color.png)
+![Before color.png](p/Before%20color.jpg)
 After:
-![after background.color.png](p/after%20background.color.png)
+![after background.color.png](p/after%20background.color.jpg)
 Penjelasan:
 - Ketika program dari tag button di beri atribut `backround-color: crimson;` maka warna latar dari button akan berubah sesuai dengan yang di inginkan, terlihat perbedaannya sebelum di beri atribut `backround-color: crimson;` warna dari latar button tetap berwarna putih alias default.
 ## color:
 Before:
-![image](p/Before%20color.png)
+![color](Before_color.jpg)
+
 After:
-![image](p/after%20color.png)
+![color][after_color.jpg]
 Penjelasan:
 - Ketika program dari tag button di beri atribut `color: aqua:` maka warna font dari button tersebut berubah menjadi warna sesuai yang di inginkan terlihat perbedaan sebelum di beri atribut `color: aqua;` warma dari font button tersebut tetap berwana hitam alias default.
 ## Text-align
-Before:
-![after background.color.png](p/after%20background.color.png)
-After:
-![after align right.png](p/after%20align%20right.png)
+
+![after background.color.png](after_background_color.jpg)
+
+
 Penjelasan:
 - Terlihat di atas perbedaannya ketika button di beri atribut `font-size: 50pt;` ukuran dari buttob tersebut langsung berubah menjadi besar karena atribut tersebut.
 # Cara Pemanggilan CSS
@@ -147,7 +150,7 @@ Dalam pemanggilan CSS, Anda dapat menetapkan gaya untuk berbagai elemen HTML men
     text-align: center;
 }
 ```
-![align center.png](p/align%20center.png)
+![align center](align_center.jpg)
 - **Justify**: Mengatur teks agar rata kiri dan kanan, kecuali pada baris terakhir yang bisa berada di sebelah kiri.
 ```css 
 .text {
@@ -177,12 +180,10 @@ Dalam contoh ini, kita menggunakan CSS untuk menambahkan efek overline pada teks
 
 #### Hasil
 
-![text deco overline.png](p/text%20deco%20overline.png)
+![overline](deco.jpg)
 
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa CSS memungkinkan pengembang web untuk memberikan tampilan yang lebih menarik dan kreatif pada teks di situs web mereka. Dengan menggunakan properti seperti text-decoration, efek visual seperti garis di atas teks dapat dengan mudah dicapai. Hal ini memungkinkan pengembang untuk meningkatkan estetika situs web mereka dan membuatnya lebih menarik bagi pengguna.
-
-
 
 
 ### Underline
@@ -205,7 +206,7 @@ Dalam contoh ini, kita menggunakan CSS untuk menambahkan efek underline pada tek
 ```
 #### Hasil
 
-![text deco underline.png](p/text%20deco%20underline.png)
+![text deco underline](underline.jpg)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa CSS memungkinkan pengembang web untuk memberikan tampilan yang lebih menarik dan kreatif pada teks di situs web mereka. Dengan menggunakan properti seperti text-decoration, efek visual seperti garis di atas teks dapat dengan mudah dicapai. Hal ini memungkinkan pengembang untuk meningkatkan estetika situs web mereka dan membuatnya lebih menarik bagi pengguna.
 ### line-through
@@ -228,7 +229,7 @@ Dalam contoh ini, kita menggunakan CSS untuk menambahkan efek line-through pada 
 ```
 #### Hasil
 
-![text deco line-trough.png](p/text%20deco%20line-trough.png)
+![text deco line-trough](line_trough.jpg)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa CSS memungkinkan pengembang web untuk memberikan tampilan yang lebih menarik dan kreatif pada teks di situs web mereka. Dengan menggunakan properti seperti text-decoration, efek visual seperti garis melintang dapat dengan mudah dicapai. Ini membuka peluang untuk meningkatkan estetika situs web dan membuatnya lebih menarik bagi pengguna.
 
@@ -255,7 +256,7 @@ contoh lainnya :
 ```
 ### Hasil
 
-![capital.png](p/capital.png)
+![capital](transform_capitalis.jpg)
 ### Kesimpulan
 Kesimpulan: Program tersebut akan mengubah tampilan teks pada elemen-elemen yang memiliki kelas ".oi" agar setiap kata di dalamnya diawali dengan huruf kapital. Misalnya, jika Anda memiliki elemen HTML seperti `<p class="oi">instagram</p>`, maka setelah penerapan CSS tersebut, teks akan berubah menjadi "Instagram".
 ## Text Indent
@@ -266,7 +267,7 @@ Kesimpulan: Program tersebut akan mengubah tampilan teks pada elemen-elemen yang
     text-indent: 100px;
 }
 ```
-![text indent.png](p/text%20indent.png)
+![text indent](indent.jpg)
 ## Letter Spacing
 - Mengatur jarak antara setiap huruf dalam teks.
 - Properti `letter-spacing` dapat diatur dengan nilai positif (untuk meningkatkan jarak) atau negatif (untuk mengurangi jarak).
@@ -275,7 +276,8 @@ Kesimpulan: Program tersebut akan mengubah tampilan teks pada elemen-elemen yang
     letter-spacing: 100px;
 }
 ```
-![letter spacing.png](p/letter%20spacing.png)
+
+![later spacing](leter_spacing.jpg)
 ## Line Height
 - Mengatur tinggi baris dalam teks.
 - Properti `line-height` dapat diatur sebagai nilai numerik, persentase, atau menggunakan nilai `normal`.
@@ -284,7 +286,8 @@ Kesimpulan: Program tersebut akan mengubah tampilan teks pada elemen-elemen yang
     line-height: 1oopx;
 }
 ```
-![line height.png](p/line%20height.png)
+
+![line height](line_height.jpg)
 ## Word Spacing
 - Dan terakhir ialah word-spacing fungsinya untuk memberi jarak di antara setiap kata dan valuenya dapat di atur sesuai keinginan kita
 ```css
@@ -292,7 +295,9 @@ Kesimpulan: Program tersebut akan mengubah tampilan teks pada elemen-elemen yang
     word-spacing: 10px;
 }
 ```
-![item](asetcss/wrds.png)
+
+![word](word_spacing.jpg)
+
 # MATERI BACKGROUND
 
 ## Kode HTML & CSS
@@ -369,7 +374,8 @@ Background-image adalah salah satu properti dalam CSS yang digunakan untuk menen
 ```
 ### Hasil
 
-![bg image.png](p/bg%20image.png)
+![background](bg_image.jpg)
+
 ### Kesimpulan
 kesimpulan dari kode tersebut adalah bahwa gambar "jjk.jpg" akan digunakan sebagai latar belakang
 ## Background Zize
@@ -390,7 +396,8 @@ background-size adalah properti dalam CSS yang digunakan untuk mengatur ukuran d
 ```
 ### Hasil
 
-![bg zize.png](p/bg%20zize.png)
+![background](zize.jpg)
+
 ### Kesimpulan
 Kesimpulan dari properti `background-size` dalam CSS adalah bahwa properti ini memungkinkan pengaturan ukuran gambar latar belakang pada sebuah elemen HTML. Dengan menggunakan `background-size`, Anda dapat mengontrol bagaimana gambar tersebut diperbesar atau diperkecil untuk menyesuaikan elemen yang terkait.
 ## Background repeat
@@ -415,7 +422,8 @@ Ketika Anda menetapkan nilai `no-repeat` untuk properti `background-repeat`, ini
 ```
 ### Hasil
 
-![bg no repeat.png](p/bg%20no%20repeat.png)
+![background](repeat.jpg)
+
 ### Kesimpulan
 Kesimpulan dari penggunaan `background-repeat: no-repeat;` adalah bahwa properti tersebut menginstruksikan browser untuk tidak mengulang gambar latar belakang di dalam elemen HTML. Dengan menggunakan nilai `no-repeat`, gambar latar belakang hanya akan ditampilkan sekali di dalam elemen tersebut, tanpa diulang baik secara horizontal maupun vertikal.
 ## Background attachment
@@ -440,7 +448,8 @@ Properti `background-attachment` digunakan dalam CSS untuk mengontrol apakah gam
 ```
 ### Hasil
 
-![bg attachmant scroll.png](p/bg%20attachmant%20scroll.png)
+![background](attachment.jpg)
+
 ### Kesimpulan
 Kesimpulannya, dengan menggunakan `background-attachment: scroll;`, Anda memastikan bahwa gambar latar belakang akan mengikuti pergerakan konten saat pengguna melakukan scrolling, menciptakan efek visual di mana gambar tersebut tetap berada di belakang konten dan bergerak bersama dengan halaman.
 
@@ -469,7 +478,7 @@ Properti `background-position` digunakan dalam CSS untuk menentukan posisi awal 
 ```
 ### Hasil
 
-![bg posisition.png](p/bg%20posisition.png)
+![bg](posisition.jpg)
 ### Kesimpulan
 Kesimpulan: Dengan menggunakan `background-position`, Anda dapat mengontrol di mana gambar latar belakang akan mulai ditampilkan di dalam elemen HTML. Properti ini memungkinkan penempatan yang tepat dan fleksibel dari gambar latar belakang, baik itu berdasarkan koordinat absolut, nilai relatif, atau persentase dari ukuran elemen.
  
@@ -484,7 +493,9 @@ Font-size adalah properti CSS yang digunakan untuk mengatur ukuran font teks dal
 }
 ```
 ### Hasil
-![image](asetcss/fsize.png)
+
+![font][size.jpg]
+
 ### Kesimpulan
 properti font-size: 100px;, ukuran font dalam elemen tersebut akan diperbesar menjadi 100 piksel.
 ## Font-style italic
@@ -497,7 +508,9 @@ italic: Menampilkan teks dalam gaya miring (italic), jika font tersebut mendukun
 }
 ```
 ### Hasil
-![image](asetcss/fstyle.png)
+
+![font](style.jpg)
+
 ### Kesimpulan
 properti `font-style: italic;`, teks dalam elemen tersebut akan ditampilkan dengan gaya huruf miring.
 
@@ -510,7 +523,8 @@ properti `font-style: italic;`, teks dalam elemen tersebut akan ditampilkan deng
 }
 ```
 ### Hasil
-![image](asetcss/fw.png)
+![image](weight.jpg)
+
 ### Kesimpulan
 `font-weight: bold;`, teks dalam elemen tersebut akan memiliki gaya huruf tebal.
 
@@ -523,7 +537,7 @@ properti `font-style: italic;`, teks dalam elemen tersebut akan ditampilkan deng
 }
 ```
 ### Hasil
-![image](asetcss/ff.png)
+![image](family.jpg)
 ### Kesimpulan
 atribut `font-family: aria;;` akan mengubah gaya text dari default ke gaya arial
 # Box Model
@@ -536,7 +550,7 @@ atribut `font-family: aria;;` akan mengubah gaya text dari default ke gaya arial
 }
 ```
 ### Hasil
-![image](asetcss/bw.png)
+![image](border_width.jpg)
 ### Kesimpulan
 Dalam CSS, properti `border-width` digunakan untuk mengatur lebar dari border sebuah elemen
 
@@ -549,20 +563,22 @@ Dalam CSS, properti `border-width` digunakan untuk mengatur lebar dari border se
 }
 ```
 ### Hasil
-![image](asetcss/sl.png)
+![image](border_style.jpg)
 ### Kesimpulan
 `border-style: solid;` adalah properti CSS yang mengatur gaya border menjadi garis lurus dan solid.
 
 ## Border-color orangered
 `border-color: orangered`; adalah properti CSS yang mengatur warna border dari sebuah elemen menjadi oranye merah (orangered). 
-## Kode program
+### Kode program
 ```css
 .element{
       border-color: orangered;
 }
 ```
-## Hasil 
-![image](asetcss/bc.png)
+### Hasil 
+
+![border](border_color.jpg)
+
 ### Kesimpulan
 Mengatur warna atau memberikan warna orangered pada pinggiran  border 
 # Box Model(Tantangan)
@@ -646,7 +662,7 @@ Mengatur warna atau memberikan warna orangered pada pinggiran  border
 }
 ```
 ## Hasil
-![image](p/hansar.png)
+![tantangan](hansar.jpg)
 # Padding
 ## Padding-left
 `padding-left` adalah properti CSS yang digunakan untuk menentukan jarak atau ruang tambahan di sebelah kiri konten dalam sebuah elemen. 
@@ -657,7 +673,7 @@ Mengatur warna atau memberikan warna orangered pada pinggiran  border
 }
 ```
 ### Hasil
-![image](asetcss/pl.png)
+![image](pdleft.jpg)
 ### Kesimpulan
 elemen HTML yang memiliki kelas "element" akan memiliki ruang tambahan di bagian kiri sebesar 29 piksel.  Dan membuat tulisan klik disini tidak terlalu ke kiri. 
 ## Padding-bottom
@@ -669,7 +685,7 @@ elemen HTML yang memiliki kelas "element" akan memiliki ruang tambahan di bagian
 }
 ```
 ### Hasil
-![image](asetcss/pb.png)
+![image](pdbottom.jpg)
 ### Kesimpulan
  elemen HTML yang memiliki kelas "element" akan memiliki ruang tambahan di bagian bawah sebesar 25 piksel.  Dan membuat tulisan klik disini tidak terlalu ke bawah. 
 ## Padding-Right
@@ -681,7 +697,7 @@ elemen HTML yang memiliki kelas "element" akan memiliki ruang tambahan di bagian
 }
 ```
 ### Hasil
-![image](asetcss/pr.png)
+![image](pdright.jpg)
 ### Kesimpulan
 elemen HTML yang memiliki kelas "element" akan memiliki ruang tambahan di bagian kanan sebesar 29 piksel.  Dan membuat tulisan klik disini tidak terlalu ke kanan. 
 ## Padding-top
@@ -693,7 +709,7 @@ elemen HTML yang memiliki kelas "element" akan memiliki ruang tambahan di bagian
 }
 ```
 ### Hasil
-![image](asetcss/pt.png)
+![image](pdtop.jpg)
 ### Kesimpulan
 elemen HTML yang memiliki kelas "element" akan memiliki ruang tambahan di bagian atasnya sebesar 20 piksel.  Dan membuat tulisan klik disini tidak terlalu ke atas. 
 # Margin
@@ -706,7 +722,7 @@ elemen HTML yang memiliki kelas "element" akan memiliki ruang tambahan di bagian
 }
 ```
 ### Hasil
-![image](asetcss/ml.png)
+![image](ml.jpg)
 ## Margin-Top
 `margin-top` adalah properti CSS yang digunakan untuk menentukan jarak atau ruang tambahan di bagian atas dari sebuah elemen terhadap elemen lain di atasnya.
 ### Kode Program
@@ -716,7 +732,7 @@ elemen HTML yang memiliki kelas "element" akan memiliki ruang tambahan di bagian
 }
 ```
 ### Hasil
-![image](asetcss/mt.png)
+![image](mt.jpg)
 ### Kesimpulan
 atura gaya ini memengaruhi tata letak (layout) elemen-elemen HTML dengan selector class "element" dengan menambahkan margin di bagian atas sebesar 60 piksel.
 ## Margin-Right
@@ -728,7 +744,7 @@ atura gaya ini memengaruhi tata letak (layout) elemen-elemen HTML dengan selecto
 }
 ```
 ### Hasil
-![image](asetcss/mr.png)
+![image](mr.jpg)
 ### Kesimpulan
 elemen-elemen HTML dengan class "element" akan memiliki jarak atau spasi tambahan sebesar 60 piksel di sebelah kanan. 
 ## Margin-Bottom
@@ -740,7 +756,7 @@ elemen-elemen HTML dengan class "element" akan memiliki jarak atau spasi tambaha
 }
 ```
 ### Hasil
-![image](asetcss/mb.png)
+![image](mb.jpg)
 ### Kesimpulan
 elemen-elemen yang memiliki kelas "element" akan memiliki jarak atau spasi sebesar 90 piksel di bagian bawahnya.
 # Pseudo-classes
@@ -767,7 +783,7 @@ elemen-elemen yang memiliki kelas "element" akan memiliki jarak atau spasi sebes
 }
 ```
 ### Hasil
-![image](asetcss/hv.png)
+![image](hv.jpg)
 ### Kesimpulan
 Sebuah kotak dengan latar belakang abu-abu, tetapi saat kursor mengarah ke atasnya, latar belakangnya berubah menjadi lightblue.
 ## Active
@@ -796,7 +812,7 @@ Sebuah kotak dengan latar belakang abu-abu, tetapi saat kursor mengarah ke atasn
 }
 ```
 ### Hasil
-![image](asetcss/ac.png)
+![image](color.jpg)
 ### Kesimpulan
 Hasilnya adalah sebuah tombol dengan latar belakang abu-abu saat ditekan.
 
@@ -936,7 +952,7 @@ Hasilnya adalah sebuah tombol dengan latar belakang abu-abu saat ditekan.
 - `button:hover`: Mengatur gaya tombol saat dihover dengan mengubah warna latar belakang, warna teks, dan ukuran tombol.
 - `button:active`: Mengatur gaya tombol saat ditekan dengan melakukan transformasi scaling
 ## Hasil
-![image](p/htrs.png)
+![image](htrs.jpg)
 # Transform 
 ### Penjelasan
 - `transform: scale(0.5);`= Mengubah ukuran elemen menjadi setengah dari ukuran aslinya.
@@ -959,7 +975,7 @@ Hasilnya adalah sebuah tombol dengan latar belakang abu-abu saat ditekan.
 }
 ```
 ### Hasil
-![image](asetcss/tfr.png)
+![image](tfr.jpg)
 ### Kesimpulan
 Setiap properti transform mengubah tampilan elemen dengan cara yang berbeda-beda sesuai dengan property. 
 
@@ -973,7 +989,7 @@ Setiap properti transform mengubah tampilan elemen dengan cara yang berbeda-beda
 }
 ```
 ### Hasil
-![image](asetcss/fb.png)
+![image](fb.jpg)
 ### Kesimpulan
 `display: flex`, kita dapat dengan mudah mengatur tata letak elemen-elemen di dalamnya menggunakan properti-properti seperti `flex-direction`, `justify-content`, `align-items`, dan properti lainnya yang terkait dengan model tata letak flexbox.
 ### Flex-Direction
@@ -988,7 +1004,7 @@ Setiap properti transform mengubah tampilan elemen dengan cara yang berbeda-beda
 }
 ```
 ### Hasil
-![image](asetcss/fd.png)
+![image](asetcss/fd.jpg)
 ### Kesimpulan
 Setiap properti flex-direction mengubah tampilan elemen dengan cara yang berbeda-beda sesuai dengan property. 
 Contoh`column` untuk tata letak vertikal dari atas ke bawah.
@@ -1006,7 +1022,7 @@ Contoh`column` untuk tata letak vertikal dari atas ke bawah.
 }
 ```
 ### Hasil
-![image](asetcss/ai.png)
+![image](asetcss/pal.jpg)
 ### Kesimpulan
 Setiap properti align-items mengubah tampilan elemen dengan cara yang berbeda-beda sesuai dengan property. 
 Contoh`center` untuk menempatkan flex items di tengah-tengah sumbu silang.`flex-start` untuk menempatkan flex items di awal sumbu silang.`flex-end` untuk menempatkan flex items di akhir sumbu silang.`baseline` untuk menempatkan flex items sehingga garis dasar teks masing-masing item berada pada level yang sama.`stretch` untuk memperpanjang flex items sehingga mencapai tinggi maksimal flex container, mengisi ruang kosong di sepanjang sumbu silang.
@@ -1023,7 +1039,7 @@ Contoh`center` untuk menempatkan flex items di tengah-tengah sumbu silang.`flex-
 }
 ```
 ### Hasil
-![image](asetcss/jsc.png)
+![image](asetcss/jsc.jpg)
 ### Kesimpulan
 Setiap properti justify-Content mengubah tampilan elemen dengan cara yang berbeda-beda sesuai dengan property. 
 Contoh`flex-start` untuk menempatkan flex items di awal (mulai) sumbu utama.`flex-end` untuk menempatkan flex items di akhir (akhir) sumbu utama.`center` untuk menempatkan flex items di tengah-tengah sumbu utama.`space-around` untuk mendistribusikan flex items secara merata di sekitar sumbu utama dengan ruang yang sama di antara mereka.`space-between` untuk mendistribusikan flex items secara merata di sepanjang sumbu utama dengan ruang yang sama di antara flex items pertama dan terakhir, tetapi tidak ada ruang di antara flex items yang berdekatan.
@@ -1123,7 +1139,9 @@ button {
 - `img`: Mengatur margin dan gaya border untuk gambar.
 - `button`: Mengatur gaya untuk tombol, termasuk dimensi, warna latar belakang, warna teks, dan margin.
 ## Hasil
-![image](p/htrs.png)
+
+![tantangan](htrs.jpg)
+
 ## Kesimpulan
 Program ini menggabungkan HTML untuk struktur konten dan CSS untuk merancang tampilan. Elemen-elemen seperti teks, gambar, dan tombol diberikan gaya agar terlihat menarik dan responsif. Penggunaan flexbox dalam CSS memungkinkan penataan elemen-elemen secara fleksibel dalam layout halaman. Dengan demikian, program ini menciptakan halaman web sederhana dengan desain yang menarik dan responsif.
 # Position
@@ -1153,7 +1171,7 @@ Program ini menggabungkan HTML untuk struktur konten dan CSS untuk merancang tam
 }
 ```
 ### Hasil 
-![image](asetcss/prl.png)
+![image](prl.jpg)
 ### Kesimpulan
 - Ketika sebuah elemen diberi `position: relative`, itu akan tetap berada dalam aliran dokumen normal, tetapi kita dapat menggunakan properti `top`, `right`, `bottom`, atau `left` untuk menyesuaikan posisinya relatif terhadap posisi normalnya.
 - Ini berguna ketika kita ingin menyesuaikan posisi sebuah elemen tetapi tetap mempertahankan ruangnya dalam aliran dokumen normal.
@@ -1184,7 +1202,7 @@ Program ini menggabungkan HTML untuk struktur konten dan CSS untuk merancang tam
 }
 ```
 ### Hasil 
-![image](asetcss/pal.png)
+![image](pal.jpg)
 ### Kesimpulan
 - Ketika sebuah elemen diberi `position: absolute`, itu akan dihapus dari aliran dokumen normal dan diposisikan relatif terhadap kontainer terdekat yang memiliki `position: relative`.
 - Ini berguna ketika kita ingin menempatkan elemen secara spesifik di dalam kontainer atau dalam hubungan terhadap elemen lain tanpa memengaruhi layout aliran dokumen.
@@ -1204,7 +1222,7 @@ Program ini menggabungkan HTML untuk struktur konten dan CSS untuk merancang tam
 }
 ```
 ### Hasil 
-![image](asetcss/px.png)
+![image](px.jpg)
 ### Kesimpulan
 position: fixed, elemen akan tetap berada pada posisinya yang ditentukan jika discrool.properti top dan left digunakan untuk menentukan jarak elemen dari tepi atas dan kiri. 
 ## Position Sticky
@@ -1234,7 +1252,9 @@ body {
 }
 ```
 ### Hasil
-![image](asetcss/pstk.png)
+
+![position](pstk.jpg)
+
 ### Kesimpulan
 `position: sticky`, elemen akan seperti posisi relatif sampai jarak scroll mencapai nilai tertentu. elemen akan tetap berada pada posisi yang telah ditentukan saat jarak scroll mencapai nilai tertentu, sambil tetap mengikuti pergeseran scroll di bawahnya.
 # Positon(Tantangan)
@@ -1401,7 +1421,9 @@ body {
 - `.like img`: Mengatur gaya untuk gambar di dalam tombol "suka".
 - `.item3 img`: Mengatur gaya untuk gambar di dalam item 3.
 ## Hasil
-![image](p/hpst.png)
+
+![tantangan](hpst.jpg)
+
 ## Kesimpulan
 Program ini menggunakan HTML untuk membuat struktur konten dan CSS untuk merancang tampilannya. Elemen-elemen seperti gambar, teks, dan tombol diberikan gaya untuk menciptakan tampilan yang menarik dan responsif. Penggunaan posisi relatif, absolut, dan sticky memungkinkan penempatan yang tepat dari elemen-elemen tersebut di halaman.
 
@@ -1463,15 +1485,15 @@ kita dapat menemukan daftar komponen lengkap dan dokumentasi resmi di situs web 
 # Contoh Penerapan Komponen Bootstrap
 ## Typography
 1. Buka situs resmi Bootstrap di [getboostrap.com](getbootstrap.com)
-	![image](assets/btc-1.png)
+	![image](btc-1.jpg)
 2. Klik "Read the docs". Maka kita akan diarahkan pada halaman web yang berisi berbagai macam Typografi (class Bootstrap).
-	![image](assets/btc-2.png)
+	![image](btc-2.jpg)
 3. Misalnya kita akan membuat sebuah teks quotes seperti di bawah ini:
-	![image](assets/btc-3.png)
+	![image](btc-3.jpg)
 4. Ketikan "Typography" di kolom search lalu enter. Maka kita akan masuk ke halaman berikut:
-	![image](assets/btc-4.png)
+	![image](btc-4.jpg)
 5. Carilah Subbab "Alignment":
-	![image](assets/btc-5.png)
+	![image](btc-5.jpg)
 6. Salinlah kode yang tertera, lalu tempelkan di tag body pada halaman html yang telah kita hubungkan dengan Bootstrap kita
 ```html
 <figure class="text-center">
@@ -1484,9 +1506,10 @@ Someone famous in
 </figcaption>
 </figure>
 ```
-![image](assets/btc-6.png)
+
+![bostreap](btc-6.jpg)
 7. Hasilnya akan terlihat seperti berikut:
-![image](assets/btc-7.png)
+![image](abtc-7.jpg)
 8. Kita bisa mengganti kata kata nya dengan cara mengganti teks yang ada di dalam tag p dan untuk teks kecil bagian bawah kita ganti pada bagian dalam tag figcaption
 ```html
 <figure class="text-center">
@@ -1502,7 +1525,7 @@ Someone famous in
 </figure>
 ```
 Hasilnya adalah sebagai berikut:
-![image](assets/btc-8.png)
+![b](btc-8.jpg)
 *Keterangan :*
 1. ==`text-center`== pada ==`<figure>`==: Kelas ini diterapkan pada elemen ==`<figure>`== , yang mengakibatkan kontennya, termasuk elemen ==`<blockquote>`== dan ==`<figcaption>`== , akan diatur menjadi ketengah halaman maupun kontainer.
 2. blockquote pada ==`<blockquote>`== : Kelas ini memberikan gaya khusus pada elemen ==`<blockquote>`== . Elemen ini digunakan untuk merinci sebuah kutipan atau teks yang dianggap signifikan. Penggunaan kelas ini dari Bootstrap mungkin memberikan tampilan tertentu, seperti memodifikasi gaya margin atau padding, untuk memberikan estetika yang lebih baik.
@@ -1513,11 +1536,11 @@ Hasilnya adalah sebagai berikut:
 Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut dan "Doroboka" adalah sumber dimana orang tersebut mengatakn kata-kata itu. Kata- kata yang dituliskan yaitu berada dalam tag ==`p`== .
 ## Navbar
 1. Bukalah Kembali [getbootstrap.com](getbootstrap.com) lalu ketik "navbar" dikolom "search" dan klik enter
-	![image](assets/btc-15.png)
+	![image](assets/btc-15.jpg)
 2. Carilah jenis navbar yang diinginkan.
-	![image](assets/btc-16.png)
+	![image](assets/btc-16.jpg)
 3. Jika misalnya kita telah menemukan jenis navbar yang kita inginkan, maka, salinlah kode program yang ada dibawah gambar contoh navbar tersebut
-	![image](assets/btc-17.png)
+	![image](assets/btc-17.jpg)
 ```html
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -1553,43 +1576,44 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
 
 ```
 4. Tempelkanlah kode program yang terlah kita salin ke dalam tag body di file html kita. Jangan lupa untuk menautkan file html kita dengan bootstrap seperti pada langkah-langkah sebelumnya
-	![image](assets/btc-18.png)
+	![image](assets/btc-18.jpg)
 5. Jalankanlah file html yang sudah ditempeli kode program bootstrap tadi melalui web browser. Maka lihatlah hasilnya
-	![image](assets/btc-19.png)
+	![image](btc-19.jpg)
 6. Misalnya kita ingin memberikan warna hijau pada background navbar kita. Pertama ketiklah "background" di kolom search
-   ![image](assets/btc-20.png)
+   ![image](btc-20.jpg)
 7. Carilah Warna yang kita inginkan. Misalnya dalam praktek ini adalah warna hijau
-	![image](assets/btc-21.png)
-	![image](assets/btc-22.png)
+	![image](btc-21.jpg)
+	![image](btc-22.Jpg)
+
 	Terdapat banyak jenis warna dalam bootstrap.
 8. Karena kita ingin mengkostumisasi warna background kita menjadi hijau maka kita akan memakai bg-succes . ketikkan bg-succes pada class tag pembuka seperti di bawah ini
-	![image](assets/btc-23.png)
+	![image](btc-23.jpg)
 	*Keterangan*:
 	Karena kita akan memberikan warna background pada navbar maka untuk menerapkannya, langsung terapkan class tag yang membungkus semua eleme-elemen yang ada pada tag tersebut.
 9. Jika sudah maka hasilnya akan seperti ini:
-	![image](assets/btc-24.png)
+	![image](btc-24.jpg)
 10. Sekarang kita akan mengubah warna font yang ada pada navbar. Langkah pertama klik "Colors" pada bagian Utilities
-	![image](assets/btc-25.png)
+	![image](assets/btc-25.jpg)
 11. Maka kita akan diarahkan pada halaman yang memuat berbagai macam warna font
-	![image](assets/btc-26.png)
+	![image](assets/btc-26.jpg)
 12. Carilah warna font yang kita inginkan. Misalnya pada kostumisasi navbar ini. Kita akan menggunakan warna font putih
-	![image](assets/btc-27.png)
+	![image](assets/btc-27.jpg)
 13. Karena kita ingin menggunakan warna font putih maka perintah yang digunakan adalah "text-white"
 14. Masuklah kembali ke dalam file html kita
 15. pada bagian class sebuah tag yang membungkus text yang akan kita ganti warna, ketiklah text-white . Contohny ada pada gambar berikut:
-	![image](assets/btc-28.png)
+	![image](assets/btc-28.jpg)
 16. Hasilnya akan terlihat seperti di gambar ini:
-	![image](assets/btc-29.png)
+	![image](assets/btc-29.jpg)
 17. Terapkanlah Text-White diseluruh class pada tag yang membungkus text-text itu seperti halnya pada text navbar tadi
-	![[assets/btc-30.png]]
+	![[assets/btc-30.jpg]]
 18. Jika file html dijalankan, hasilnya adalah sebagai berikut
-	![image](assets/btc-31.png)
+	![image](assets/btc-31.jpg)
 19. Sekarang kita akan mengganti text yang ada di navbar tersebut. Caranya sangat mudah, yaitu cukup kita ganti text-text tadi dengan kata kata yang kita inginkan. Misalnya adalah sebagai berikut:
-	![image](assets/btc-32.png)
+	![image](assets/btc-32.jpg)
 20. Maka hasilnya adalah sebagai berikut:
-	![image](assets/btc-33.png)
+	![image](assets/btc-33.jpg)
 21. Sekarang kita akan menambahkan kolom search pada navbar kita. pada bagian navbar di [getbootstrap.com](getbootstrap.com) Scroll ke bawah hingga menemukan seperti pada gambar
-	![image](assets/btc-34.png)
+	![image](assets/btc-34.jpg)
 22. Salin kodenya lalu tempelkan di bagian bawah kode navbar kita tadi. Jadi jangan disatukan ke dalam kode navbar tadi.
 ```html
 <nav class="navbar bg-body-tertiary">
@@ -1601,7 +1625,7 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
     </div>
 </nav>
 ```
-![image](assets/btc-35.png)
+![image](assets/btc-35.jpg)
 
 *Keterangan*:
 1. ==`navbar`== : Kelas ini menunjukkan bahwa elemen ==`<nav>`== adalah bagian dari komponen navbar. Navbar adalah bagian dari Bootstrap yang menyediakan navigasi di bagian atas halaman web. Dengan memberikan kelas navbar , kita memberitahu Bootstrap untuk menerapkan gaya dan tata letak khusus yang terkait dengan navigasi.
@@ -1613,41 +1637,41 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
 7. ==`btn`== dan ==`btn-outline-success`== : Kelas ini memberikan gaya pada elemen ==`<button>`== . Kelas btn mengindikasikan bahwa ini adalah elemen tombol Bootstrap, sedangkan btn-outline-success memberikan gaya tombol dengan warna tepi hijau ("success" dalam Bootstrap).
 8. ==`type="submit"`== pada tombol: Ini menentukan bahwa tombol tersebut bertindak sebagai tombol submit dalam formulir. Ketika ditekan, formulir akan dikirim.
 9. Maka hasilnya adalah seperti berikut:
-	![image](assets/btc-36.png)
+	![image](btc-36.jpg)
 10. Untuk membuat agar navbar tersebut terlihat menyatu, berikan background-color yang sama pada navbar diatasnya, yaitu menggunakan kode bg-succes . Letakkan di class tag yang membungkus seluruh elemen search tadi.
-	![image](assets/btc-37.png)
+	![image](btc-37.jpg)
 11. Maka hasil yang muncul akan seperti ini
-	![image](assets/btc-38.png)
+	![image](assets/btc-38.jpg)
 ## Buttons
 Pada praktek sebelumnya kita sudah mengatur navbar dan juga menambahkan kolom search. Namun ada masalah dengan tombolnya. Karena tombolnya memiliki warna yang sama dengan warna background yang digunakan yaitu hijau, Maka tombol tersebut tidak terlihat akibat warnanya menyatu. Pada bagian kali kita akan membahas cara mengatur sebuah tombol di bootstrap. Berikut caranya:
 
 1. Permasalahan tadi ialah background color tombolnya yang menyatu dengan warna backgriund navbarnya. Untuk mengatur warna tombol, pertama di situs getbootstrap.com, carilah bagian "buttons" di Components
-	![image](assets/btc-39.png)
+	![image](btc-39.jpg)
 2. Jika sudah menemukan klik bagian tersebut, maka kita akan diarahkan pada bagian buttons seperti pada gambar
-	![image](assets/btc-40.png)
+	![image](btc-40.jpg)
 3. Scroll lah ke bawah hingga menemukan bagian "Outlines Buttons"
-	![image](assets/btc-41.png)
+	![image](btc-41.jpg)
 4. Saat ini kita akan menggunakan jenis warna putih agar tidak lagi menyatu dengan warna background navabrnya. Pada outline buttons yang berwarna putih, tertulis "Light". Oleh karena itu salinlah kode program yang ada tulisan "Light".
 ```html
 <button type="button" class="btn btn-outline-light">Light</button>
 ```
 5. Blok lah terlebih dahulu kode program yang mengatur tombol pada bagian search tadi
-	![image](assets/btc-42.png)
+	![image](btc-42.jpg)
 6. Tempelkanlah kode program outline light, untuk menggantikan kode program button yang lama
-	![image](assets/btc-43.png)
+	![image](btc-43.jpg)
 7. Maka hasilnya akan bagus seperti pada gambar dibawah ini:
-	![image](assets/btc-44.png)
+	![image](btc-44.jpg)
 8. Ubahlah Text "Light" menjadi "Search"
-	![image](assets/btc-45.png)
+	![image](btc-45.jpg)
 9. Maka hasilnya akan seperti ini:
-	![image](assets/btc-46.png)
+	![image](btc-46.jpg)
 ## Cards dan Form
 Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan sebagai login page dari web kita tadi. Dalam pembuatan form login ini, kita akan menggunakan cards sebagai layout/tata letak yang akan mengatur form login tadi. Berikut langkah-langkahnya:
 
 1. Yang pertama kita tentunya harus menentukan layout cards nya terlebih dahulu. Hal ini bertujuan agar jika tata letak card sudah ada, maka kita tinggal mengatur form nya di dalam card tadi. Masuk ke situs bootstrap tadi lalu pilih cards
-	![image](assets/btc-47.png)
+	![image](btc-47.jpg)
 2. Scrol ke bawah hingga menemukan layout yang kita inginkan, misalnya seperti pada gambar:
-	![image](assets/btc-48.png)
+	![image](btc-48.jpg)
 3. Pada bagian bawah contoh, terdapat kode program. Salinlah kode program tersebut
 ```html
 <div class="card">
@@ -1663,7 +1687,7 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 ```
 4. Tempelkanlah kode program itu pada halaman html terkait. Tentu saja dengan bootstrap yang sudah ditautkan, baik offline, maupun online.
 5. Maka hasil awalnya adalah sebagai berikut:
-	![image](assets/btc-49.png)
+	![image](btc-49.jpg)
 6. karena jarak atas antara card dengan batas website terlalu dekat maka pada class card tambahkan mt-2 .
 ```html
 <div class="card mt-2">
@@ -1678,7 +1702,7 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 </div>
 ```
 7. Maka hasilnya adalah seperti ini:
-	![image](assets/btc-50.png)
+	![image](btc-50.Jpg)
 8. Sekarang kita ingin membuatnya terlihat ke tengah. Maka buatlah sebuah div dengan class yaitu "container", lalu salin masuklah kode program card tadi. Dengan kata lain, bungkuslah kode program card dengan sebuah div dengan class="container".
 ```html
 <div class="container">
@@ -1695,9 +1719,9 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 </div>
 ```
 9. Berikut hasil dari di bungkusnya cards tadi.
-	![image](assets/btc-51.png)
+	![image](btc-51.jpg)
 10. Sekarang kita akan membuat form nya. Pertama-tama, kita perlu membuat judul form. Caranya adalah ganti tulisan "Featured" di html kita dengan kata yang kita inginkan. misalnya pada program ini kita akan mengganti tulisan menjadi "Form Login".
-	![image](assets/btc-10.png)
+	![image](btc-10.jpg)
 ```html
 <div class="container">
     <div class="card mt-2">
@@ -1732,7 +1756,7 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 		- Lebar ==`container-fluid`== disesuaikan dengan lebar layar pengguna, sehingga konten dapat memanfaatkan seluruh lebar tampilan tanpa batasan piksel tertentu.
 		- Digunakan ketika Anda ingin membuat tata letak yang menyesuaikan diri dengan lebar layar dan memberikan tampilan responsif.
 11. Hasilnya adalah sebagai berikut
-	![image](assets/btc-9.png)
+	![image](btc-9.jpg)
 12. Sekarang pada bagian dalam div card-body hapus semua elemen yang ada didalamnya kecuali button:
 ```html
 <div class="container">
@@ -1747,9 +1771,9 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 </div>
 ```
 13. Hasilnya akan seperti ini
-	![image](assets/btc-11.png)
+	![image](btc-11.jpg)
 14. Langkah selanjutnya adalah menambahkan elemen-elemen form ke dalam card-body untuk membuat formulir login. Anda dapat menggunakan elemen-elemen HTML seperti form , input , dan button untuk ini. bukalah kembali getbootstrap.com dan pilihlah form yang kita inginkan:
-	![image](assets/btc-12.png)
+	![image](btc-12.jpg)
 15. Salinlah kode program dibawah contoh forms tadi:
 ```html
 <form>
@@ -1770,9 +1794,9 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 </form>
 ```
 16. Tempelkanlah didalam cards-body tadi
-	![image](assets/btc-13.png)
+	![image](btc-13.jpg)
 17. Maka hasilnya adalah sepert ini:
-	![image](assets/btc-14.png)
+	![image](btc-14.jpg)
 Dengan demikian kita sudah berhasil membuat layoutcards dimana form login sebagai kontennya
 # Grid For Responsive Web/Layouting
 Bootstrap memiliki sistem tata letak yang kuat yang bernama grid. Grid berguna untuk membuat tata letak yang responsif di halaman web kita. Sistem grid Bootstrap berdasarkan konsep kolom yang dapat diatur dalam baris. Berikut adalah beberapa hal penting yang perlu kita ketahui tentang grid dan layouting di Bootstrap:
@@ -1799,11 +1823,11 @@ Itu adalah beberapa konsep penting dalam sistem grid Bootstrap. Dengan menggunak
 Sekarang kita akan mencoba penggunaan grid yang dengan bantuan Bootstrap. Berikut langkah-langkahnya:
 
 1. Masuklah kembali ke web getbootstrap.com.
-	![image](assets/btc-52.png)
+	![image](assets/btc-52.jpg)
 2. carilah "Grid" di Kolom search lalu klik enter. Maka kita akan diarahkan pada halaman web yang berisi tentang grid.
-	![image](assets/btc-53.png)
+	![image](assets/btc-53.jpg)
 3. Carilah layout atau tata letak grid yang kita inginkan. Misalnya pada praktek kali ini, kita akan menggunakan layout "Row columns".
-	![image](assets/btc-54.png)
+	![image](assets/btc-54.jpg)
 4. Salinlah kode program yang terletak di kode bawah contohnya.
 ```html
 <div class="container text-center">
@@ -1816,9 +1840,9 @@ Sekarang kita akan mencoba penggunaan grid yang dengan bantuan Bootstrap. Beriku
 </div>
 ```
 5. Tempelah pada file html yang tentunya telah dihubungkan dengan tautan bootstrap, baik secara offline maupun online.
-	![image](assets/btc-55.png)
+	![image](btc-55.jpg)
 6. Maka hasilnya akan seperti berikut:
-	![image](assets/btc-56.png)
+	![image](btc-56.jpg)
 	*Keterangan:*
 	Jadi tulisan "Column" adalah isi konten yang sudah teratur dalam grid ini. kita bisa mengganti "konten" ini dengan konten yang kita inginkan
 7. Untuk mengganti kontennya hapuslah tulisan "Column" lalu gantilah dengan kontent yang kita inginkan.
@@ -1857,15 +1881,15 @@ Sekarang kita akan mencoba penggunaan grid yang dengan bantuan Bootstrap. Beriku
 </div>
 ```
 8. Hasil nya akan menjadi seperti berikut:
-	![image](assets/btc-57.png)
+	![image](btc-57.jpg)
 	*Keterangan:*
 	Jadi Grid tadi mengatur Row dan Column dimana terdapat 2 baris berisi 4 kolom sebagai kontennya. Kontennya tadi kita ganti dengan konten yang kita inginkan
 9. Apabila layar yang kita kecilkan, maka grid akan menyesuaikan ukurannya seperti pada gambar ini
-	![image](assets/btc-58.png)
+	![image](btc-58.jpg)
 	*Keterangan:*
 	Jadi grid ini sudah mengatur mengenai penyesuaian ukuran layar kita, sehingga, dapat menyesuaikan di segala ukuran monitor.
 10. Apabila kita melihatnya di perangkat, maka akan terlihat seperti ini:
-	![image](assets/btc-59.png)
+	![image](btc-59.jpg)
 	*Keterangan:*
 	Jadi karena grid yang disediakan oleh bootstrap telah mendukung fitur responsive, maka ketika user melihat tampilan web kita di ponsel, maka tata letak akan mengikutinya sesuai dengan ukuran ponsel, seperti yang terlihat pada gambar di atas
 ## Contoh Penggunaan `col-md`, `col-lg` dan `col-sm`
@@ -1878,9 +1902,9 @@ Kelas ==`col-md`== , ==`col-lg`== , dan ==`col-sm`== adalah kelas-kelas kolom da
 **Contoh**:
 Sekarang kita akan coba untuk membuat sebuah tampilan dengan menggunakan class diatas tadi. Berikut contohnya: 
 1. Bukalah kembali web getbootsrap lalu di kolom pencarian carilah "grid".
-	![image](assets/btc-60.png)
+	![image](btc-60.jpg)
 2. Cari dan copylah kembali codingan grid yang kita gunakan pada praktek sebelumnya.
-	![image](assets/btc-61.png)
+	![image](btc-61.jpg)
 ```html
 <div class="container text-center">
     <div class="row row-cols-2">
@@ -1892,9 +1916,9 @@ Sekarang kita akan coba untuk membuat sebuah tampilan dengan menggunakan class d
 </div>
 ```
 3. Tempelkanlah codingan tadi di visual studio kode pada file tempat kita mempraktekkan grid pada praktikum sebelumnya, agar kita bisa menggunakan satu file saja untuk praktek.
-	![image](assets/btc-62.png)
+	![image](btc-62.jpg)
 4. Maka akan terlihat seperti gambar di bawah ini:
-	![image](assets/btc-63.png)
+	![image](btc-63.jpg)
 	*Keterangan*:
 	Perhatikanlah di bawah kolom JavaScript dan JQuery, terdapat tulisan column sebanyak 4 dan bersusun hal ini dikarenakan pada kodingan tadi, teks yang dipakai sebagai template di bootstrap adalah "Column", nanti pada tahap selanjutnya kita akan mengganti "Column" itu dengan text atau item yang kita inginkan.
 5. Sekarang, pada codingan yang kita ambil dari web bootstrap tadi pada bagian ==`<div class="col">`== yang pertama, tambahkanlah -md sehingga menjadi ==`<div class="col-md>"`== . Kemudian pada ==`<div class="col">`== yang kedua, tambahkanlah - lg sehingga menjadi ==`<div class="col-lg">`== , dan terakhir pada ==`<div class="col">`== yang ketiga, tambahkanlah -sm sehingga menjadi ==`<div class="col-sm">`== , sementara pada ==`<div class="col">`== yang terakhir kita biarkan saja seperti bawaan.
@@ -1911,9 +1935,9 @@ Sekarang kita akan coba untuk membuat sebuah tampilan dengan menggunakan class d
 ![image](assets/btc-64.png)
 6. Maka hasilnya akan menjadi seperti ini:
 	**Sebelum:**
-	![image](assets/btc-66.png)
+	![image](btc-66.jpg)
 	**Sesudah:**
-	![image](assets/btc-67.png)
+	![image](assets/btc-67.jpg)
 
 *Keterangan:*
 - ==`col-md`== :Dengan menambahkan -md pada codingan tadi akan membuat kolom tersebut mengambil sebagian besar lebar tersedia (12 kolom) pada layar dengan lebar medium (768px atau lebih).
@@ -1961,9 +1985,9 @@ Sekarang kita akan coba untuk membuat sebuah tampilan dengan menggunakan class d
     </div>
 </div>
 ```
-![image](assets/btc-100.png)
+![image](assets/btc-100.jpg)
 8. Maka hasilnya akan seperti ini:
-	![image](assets/btc-68.png)
+	![image](btc-68.jpg)
 	*Keterangan:*
 	Jadi pada praktek sebelumnya tanpa adanya tambahan pada class bootstrap tadi maka elemen akan menyesuaikan lebar pada pembungkus menjadi full, sedangkan untuk praktek yang saat ini kita tampilkan, item dan teks nya menyesuaikan ukurannya sesuai dengan tambahannnya. Untuk penjelasan ukurannya **Penjelasannya telah kami sediakan di langkah ke-6**.
 # Penggunaan Tema
@@ -1980,21 +2004,21 @@ Berikut adalah langkah-langkah umum untuk melakukan kostumisasi tema Bootstrap:
 Kita dapat membuat tema kostuminasi Bootstrap yang sesuai dengan kebutuhan dan gaya desain kita. Penting untuk diingat bahwa jika kita menggunakan versi Bootstrap yang lebih baru, beberapa variabel atau struktur file mungkin telah berubah.
 # Contoh Penggunaan Tema dalam Bootstrap
 1. Jadi misalnya kita ingin memberikan tema pada website yang telah kita buat sebelumnya
-	![image](assets/btc-70.png)
+	![image](btc-70.jpg)
 2. Bukalah website bootswacth.com dimana website ini menyediakan tema tema yang dapat digunakan untuk web bootstrap kia.
-	![image](assets/btc-71.png)
+	![image](btc-71.jpg)
 3. Scroll lah ke bawah hingga kita menemukan kumpulan tema tema yang telah disediakaan oleh website ini
-	![image](assets/btc-72.png)
+	![image](btc-72.jpg)
 4. Misalnya kita akan memilih tema "Darkly", oleh karena itu, klik download pada bagian bawah contoh tema tersebut.
-	![image](assets/btc-73.png)
+	![image](btc-73.jpg)
 5. Jika sudah mendownloadnya maka kita telah mendapatkan file css untuk tema tersebut
-	![image](assets/btc-74.png)
+	![image](btc-74.jpg)
 6. Pindahkanlah file css tersebut ke dalam folder yang berisi file html yang akan kita berikan tema
-	![image](assets/btc-75.png)
-7. Sekarang, masuklah ke dalam file html yang akan kita berikan tema bootstrap, lalu panggillah secara eksternal file css tema tadi ke dalam file html tersebut
-	![image](assets/btc-76.png)
+	![image](btc-75.Jpg)
+1. Sekarang, masuklah ke dalam file html yang akan kita berikan tema bootstrap, lalu panggillah secara eksternal file css tema tadi ke dalam file html tersebut
+	![image](btc-76.jpg)
 8. Maka hasilnya adalah sebagai berikut dengan demikian kita sudah berhasil memberikan tema gelap pada tampilan html kita menggunakan tema dark pada bootstrap
-	![image](assets/btc-77.png)
+	![image](btc-77.jpg)
 	dengan demikian kita sudah berhasil memberikan tema gelap pada tampilan html kita menggunakan tema dark pada bootstrap
 # Modifikasi Template Bootstrap 
 Kostumasisasi dalam bootstrap adalah menggunakan template bootstrap kemudian kita akan memodifikasi template tersebut sesuai dengan keinginan kita.
@@ -2008,29 +2032,29 @@ Template dalam Bootstrap juga mendukung konsep responsivitas, yang berarti halam
 Berikut cara mengkostumisasi template bootstrap:
 
 1. Pertama adalah kita akan membuka sebuah website yang menyediakan template bootstrap. Kali ini web akan kita gunakan adalah themewagon.com
-	![image](assets/btc-78.png)
+	![image](assets/btc-78.jpg)
 2. Masuklah ke dalam website tersebut
-	![image](assets/btc-79.png)
+	![image](assets/btc-79.jpg)
 3. Carilah template yang ingin kita sesuaikan dengan cara mensearch ataupun menscroll hingga menemukan tema yang sesuai
-	![image](assets/btc-80.png)
+	![image](assets/btc-80.jpg)
 4. Jika sudah menemukan template yang kita inginkan, masuk ke template tersebut lalu klik download pada bagian kanan sebelah, contoh gambar dibawah ini.
-	![image](assets/btc-81.png)
+	![image](assets/btc-81.jpg)
 5. Jika sudah mendownloadnya maka kita telah mendapatkan file template bootsrap kita dalam bentuk zip. File ini berisi asset gambar, style css, index tml, maupun javascript yang menyusun komponen template ini
-	![image](assets/btc-82.png)
+	![image](assets/btc-82.jpg)
 6. Ekstraklah file tersebut hingga berbentuk seperti file biasa dengan cara klik kanan pada file zip tadi lalu pilih "Extract All".
-	![image](assets/btc-83.png)
+	![image](assets/btc-83.jpg)
 7. Jika proses ekstrak sudah selesai maka kita tela mendapatkan folder template tersebut dalam bentuk folder biasa
-	![image](assets/btc-84.png)
+	![image](assets/btc-84.jpg)
 8. Masuklah ke dalam folder template yang telah diekstrak tadi
-	![image](assets/btc-85.png)
+	![image](assets/btc-85.jpg)
 9. Masuklah ke dalam folder index.html. didalam sana terdapat tampilan template kita
-	![image](assets/btc-86.png)
+	![image](assets/btc-86.jpg)
 10. Sekarang kita akan mengkostumasisasi tampilan web template ini. Caranya adalah buka file template nya di visual studio code
-	![image](assets/btc-87.png)
+	![image](assets/btc-87.jpg)
 11. Mulailah mengganti konten-konten seperti teks, gambarm dan lainnya seperti yang kita inginkan. Misalnya saya akan mengganti teks yang ada di gambar ini
-	![image](assets/btc-.png)
+	![image](assets/btc-.Jpg)
 12. Buka kembali visual studio dan masuk ke file index.html tersebut lalu carilah penyusun konten itu
-	![image](assets/btc-88.png)
+	![image](assets/btc-88.jpg)
 13. Gantilah kalimat dan tujuan email dan nomor telp itu dengan yang kita inginkan
 ```html
 <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:powershop179@gmail.com">powershop179@gmail.com</a>
@@ -2038,18 +2062,18 @@ Berikut cara mengkostumisasi template bootstrap:
 <a class="navbar-sm-brand text-light text-decoration-none" href="tel:082133273167">082133273167</a>
 ```
 Maka hasilnya akan terlihat seperti dibawah ini:
-	![image](assets/btc-89.png)
+	![image](assets/btc-89.jpg)
 14. Mulailah mengganti elemen-elemen lainnya sesuai keinginan kita. Misalnya kita ingin juga mengganti logo yang ada di website ini
-	![image](assets/btc-90.png)
+	![image](assets/btc-90.jpg)
 ```html
 <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
     Powershop179
 </a>
 ```
 15. Hasil setelah diganti adalah seperti ini
-	![image](assets/btc-91.png)
+	![image](assets/btc-91.Jpg)
 16. Sekarang kita akan mengganti Nama web kita yang ada di slide carousel
-	![image](assets/btc-92.png)
+	![image](assets/btc-92.Jpg)
 ```html
 <div class="col-lg-6 mb-0 d-flex align-items-center">
     <div class="text-align-left align-self-center">
@@ -2067,9 +2091,9 @@ Maka hasilnya akan terlihat seperti dibawah ini:
 
 ```
 Hasilnya akan menjadi seperti ini:
-	![image](assets/btc-93.png)
+	![image](assets/btc-93.jpg)
 17. bagaimana jika kita ingin mengganti gambar? Misalnya kita akan mengganti gambar yang ada di card ini
-	![image](assets/btc-94.png)
+	![image](assets/btc-94.jpg)
 18. Masuklah ke visual studio code dan ke index.html tadi lalu carilah kode penyusun untuk gambar ini, kemudian gantilah di bagian src gambar yang sudah ada dengan gambar yang kita inginkan
 ```html
 <a href="shop-single.html">
@@ -2077,7 +2101,7 @@ Hasilnya akan menjadi seperti ini:
 </a>
 ```
 Maka haslinya akan menjadi seperti ini:
-	![image](assets/btc-95.png)
+	![image](assets/btc-95.jpg)
 Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat mengganti text, gambar, link tujuan, atau menambahkan elemen tertentu sesuai dengan kebutuhan kita. Ini tentunya sangat menghemat waktu dan tenaga, dimana kita hanya fokus pada konten yang kita sajikan dibanding harus menyusun grid, responsif, dan lainnya dari awal
 # Studi Kasus Pengaplikasian Bootstrap dalam Desain Web
 **Contoh Desain Web Yang Akan di Implementasikan**:
@@ -2093,9 +2117,9 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 - pada ==`<div class="container">`== : Kelas ini memberikan tata letak yang terkandung pada lebar tertentu (dalam pixel) dan ditengahkan di tengah halaman atau elemen yang memuatnya. Ini membantu dalam mengatur konten agar sesuai dengan standar desain Bootstrap.
 
 3. Selanjutnya kita akan implementasikan navbarnya, bukalah kembali web getbootsrap lalu di kolom pencarian carilah "navbar".
-	   ![image](assets/bf-2.png)
+	   ![image](assets/bf-2.jpg)
 4. Cari dan copylah codingan komponen navbar yang mungkin sesuai dengan desainnya.
-	   ![image](assets/bf-3.png)
+	   ![image](assets/bf-3.jpg)
 ```html
 <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Navbar</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarSupportedContent"> <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a> <ul class="dropdown-menu"> <li><a class="dropdown-item" href="#">Action</a></li> <li><a class="dropdown-item" href="#">Another action</a></li> <li> <hr class="dropdown-divider"> </li> <li><a class="dropdown-item" href="#">Something else here</a></li> </ul> </li> <li class="nav-item"> <a class="nav-link disabled" aria-disabled="true">Disabled</a> </li> </ul> <form class="d-flex" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> <button class="btn btn-outline-success" type="submit">Search</button> </form> </div> </div> </nav>
 ```
@@ -2108,14 +2132,14 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 
 5. Tempelkanlah kode program itu didalam class ==`container`== sebelumnya pada halaman html terkait. Tentu saja dengan bootstrap yang sudah ditautkan, baik offline, maupun online.
 6. Maka hasilnya akan seperti ini:
-	   ![image](assets/bf-4.png)
+	   ![image](assets/bf-4.jpg)
 7. Sekarang pada bagian dalam div `navbar-collapse` hapus elemen form:
 ```html
 <form class="d-flex" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> <button class="btn btn-outline-success" type="submit">Search</button> </form>
 ```
-![image](assets/bf-r1.png)
+![image](assets/bf-r1.jpg)
 8. Hasilnya akan seperti ini:
-	   ![image](assets/bf-5.png)
+	   ![image](assets/bf-5.jpg)
 9. Langkah Selanjutnya kita perlu mengganti list list serta nama logo pada navbarnya
 ```html
 <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <li class="nav-item"> <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link text-muted" href="#">Discover</a> </li> <li class="nav-item"> <a class="nav-link text-muted" href="#">Post a Job</a> </li> <li class="nav-item"> <a class="nav-link text-muted" href="#">Contact Us</a> </li> </ul>
@@ -2125,7 +2149,7 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 	2. ==`fw-bold`== dalam Bootstrap digunakan untuk memberikan tebal pada teks. Kelas ini merupakan bagian dari utilitas ==`font-weight`== yang disediakan oleh Bootstrap, yang memungkinkan Anda untuk dengan cepat mengubah berat font teks dengan kelas `.fw-*`. Kelas ==`fw-bold`== setara dengan berat font 700
 	3. ==`text-muted`== digunakan untuk memberi gaya pada teks dengan warna yang redup. Kelas ini merupakan bagian dari utilitas ==`text-color`== yang disediakan oleh Bootstrap, yang memungkinkan Anda untuk dengan mudah mengubah warna teks dengan kelas ==`.text-*`.== Kelas ==`text-muted`== setara dengan warna ==`$gray-600`==, yang merupakan warna abu-abu yang redup.
 
-![image](assets/bf-6.png)
+![image](assets/bf-6.jpg)
 10. Kemudian tambah tombol `sign-up`  di sebelah kanan, sama seperti form namun kita berikan tag anchor
 ```html
 <a href="/sign-up" class="btn btn-outline-dark rounded-0 fw-bold"> Sign Up </a>
@@ -2137,18 +2161,18 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 	4. ==`fw-bold`==  digunakan untuk mengatur font teks dengan berat font yang tebal.
 	5.  ==`text-muted`==  digunakan untuk mengatur warna teks dengan warna yang redup.
 
-![image](assets/bf-7.png)
+![image](assets/bf-7.jpg)
 11. Selanjutnya ganti background navbarnya dari `bg-body-tertiary` menjadi transparan dengan menggunakan class `bg-trasnparent`
-![image](assets/bf-r2.png)
+![image](assets/bf-r2.Jpg)
 	
 12. Sekarang kita akan menengahkan list navbarnya dengan menggunakan class `m-auto`
-![image](assets/bf-8.png)
+![image](assets/bf-8.jpg)
 sebelum
-![image](assets/bf-9.png)
+![image](assets/bf-9.jpg)
 sesudah
-![image](assets/bf-10.png)
+![image](assets/bf-10.jpg)
 13. Hasilnya akan seperti ini:
-	![image](assets/bf-11.png)
+	![image](assets/bf-11.jpg)
 14. Sekarang kita akan implementasikan komponen hero section, tuliskan kode berikut.
 ```html
 <section id="hero"></section>
@@ -2166,17 +2190,17 @@ sesudah
 	6. class ==`col-12`== adalah class Bootstrap yang digunakan untuk mengatur lebar konten. Class ini menambahkan stil yang memastikan konten berada pada lebar penuh dari bagian atas ke bawah.
 
 16. Hasilnya akan seperti ini:
-	![image](assets/bf-12.png)
+	![image](assets/bf-12.jpg)
 17. Disini text nya hanya ke tengah secara horizontal, agar dapat ke tengah secara vertikal perlu kita atur tinggi pada hero sectionnya dengan external style
 ```html
 <style> #hero { height: 85vh; } </style>
 ```
-![image](assets/bf-r3.png)
+![image](assets/bf-r3.Jpg)
 *Keterangan*:
 	 ini mengatur tinggi dari elemen yang memiliki ID `hero` menjadi 85% dari tinggi viewport (viewport height).
 
 18. Hasilnya akan seperti ini:
-	![image](assets/bf-13.png)
+	![image](assets/bf-13.jpg)
 19. Sekarang kita akan implementasikan komponen button nya, dapat kita lihat pada desainnya terdapat dua button sejajar secara horizontal, maka kita perlu memakai flexbox yang disediakan oleh bootstrap.
 ```html
 <div class="d-flex gap-4 justify-content-center align-items-center"> <a href="#" class="">Explore Remote Jobs</a> <a href="#" class="">How it works?</a> </div>
@@ -2187,7 +2211,7 @@ sesudah
 	3. ==`justify-content-center`== digunakan untuk mengatur posisinya konten di tengah bagian horizontal.
 	4. ==`align-items-center`== digunakan untuk mengatur posisinya konten di tengah bagian vertikal.
 
-![image](assets/bf-14.png)
+![image](assets/bf-14.jpg)
 20. Selanjutnya kita perlu beri space dari setiap buttonnya, dan beri warna pada button sebelah kiri
 ```html
 <div class="d-flex gap-4 justify-content-center align-items-center"> <a href="#" class="p-2 px-3 text-decoration-none bg-primary rounded-5 text-white shadow-sm ">Explore Remote Jobs</a> <a href="#" class="p-2 px-3 text-primary rounded-5 fw-semibold">How it works?</a> </div>
@@ -2203,14 +2227,14 @@ sesudah
 	8. ==`fw-semibold`== digunakan untuk mengatur font teks dengan berat font yang semibold.
 	9. ==`text-primary`== digunakan untuk mengatur warna teks pada tautan. Class ini menambahkan stil yang membuat warna teks tautan berwarna hitam.
 
-![image](assets/bf-15.png)
+![image](assets/bf-15.Jpg)
 21. Sekarang kita akan mengganti background body nya
 ```html
 <style> body { background-color: #F6FAFF; background-image: linear-gradient(90deg, #0500FF 0%, #F8FB76 35%, #4EFF75 64%, #00FFD1 100%); background-blend-mode: overlay; } </style>
 ```
-![image](assets/bf-r4.png)
+![image](assets/bf-r4.jpg)
 22. Hasilnya akan seperti ini:
-	![image](assets/bf-16.png)
+	![image](assets/bf-16.jpg)
 # Best Practices dan Tips
 ## Gunakan Grid Sistem:
 Manfaatkan grid sistem Bootstrap untuk mengatur tata letak (layout) situs Anda dengan baik. Gunakan kelas-kelas seperti `container`, `row`, dan `col` untuk membagi konten Anda menjadi bagian-bagian yang sesuai.
@@ -2222,7 +2246,7 @@ Pastikan situs Anda berfungsi dengan baik di berbagai browser, termasuk versi la
 # Pengenalan Responsive Web Design
 Responsive web design atau desain web responsif adalah sebuah teknik atau metode bagi web designer untuk membuat suatu layout website yang dapat menyesuaikan diri sesuai dengan ukuran layar pengguna. Baik dari ukuran huruf, user interface, gambar dan tata letak akan menyesuaikan dengan lebar layar dan resolusi device yang digunakan. 
 Selain dapat memengaruhi apa yang ditampilkan pada perangkat tertentu, ini juga untuk meningkatkan kenyamanan pengguna dalam mengunjungi suatu website.
-![100%](assetss/responsive-1.png)
+![100%](assetss/responsive-1.jpg)
 # Mengapa perlu CSS Responsive?
 Pernahkah Anda mengunjungi situs web di smartphone Anda dan halaman webnya berantakan atau teksnya terlalu kecil untuk dibaca? Ini artinya situs web tersebut belum responsif. Dengan memakai css responsif maka web kita memungkinkan tampil optimal di berbagai perangkat, mulai dari desktop, laptop, tablet, hingga smartphone. Berikut alasan beberapa alasan mengapa css responsif penting: 
 - **Tampilan yang Bagus di Semua Perangkat**
@@ -2288,9 +2312,9 @@ Saat mendesain website, mulailah dengan mempertimbangkan tampilan website pada p
 
 # Implementasi CSS Responsif
 ## Sebelum Responsif
-![](assetss/res-2.png)
+![](assetss/res-2.jpg)
 ## Sesudah Responsif
-![](assetss/res-3.png)
+![](assetss/res-3.jpg)
 ## Kode
 ### HTML
 ```html

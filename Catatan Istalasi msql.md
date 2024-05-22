@@ -49,7 +49,9 @@ insert into pelanggan
 ```
 
 ### Hasil 
-![[IMG_20240504_205036.jpg]]
+
+![Insert 1 data](satudata.jpg)
+
 ### Analisis
 
 - `INSERT INTO karyawan` : Ini menentukan nama tabel dimana data akan dimasukkan, dalam hal ini, "karyawan".
@@ -71,7 +73,7 @@ Akan menyisipkan baris baru ke dalam tabel "karyawan" dengan nilai yang ditentuk
 
 Kesimpulan dari perintah `INSERT INTO pelanggan VALUES (1, "hansar", "hans", "0895333405540");` adalah data karyawan dengan ID 1, nama "ardiansya", nama panggilan "ardi", dan nomor telepon "0895333405540" telah dimasukkan ke dalam tabel karyawan.
 
-### Insert >1 Data
+## Insert >1 Data
 
 ### Struktur
 
@@ -130,7 +132,7 @@ insert into pelanggan
 
 ### Hasil
 
-![[Screenshot_20240504_211526.jpg]]
+![insert Lebih kecil](lebihkecil.jpg)
 
 ### Analisis
 
@@ -163,7 +165,8 @@ update pelanggan set no_telp="086451334044" where nama_belakang="4";
 
 ## Hasil
 
-_![[Screenshot_20240504_212502.jpg]]
+![Update](update.jpg)
+
 ## Analisis
 
 - `UPDATE pelanggan`: Bagian ini menentukan tabel yang akan diperbarui, yaitu "karyawan" dalam hal ini.
@@ -193,6 +196,7 @@ DELETE FROM pelanggan WHERE id_pelanggan="3";
 ## Hasil
 
 ![[Screenshot_20240504_213116.jpg]]
+
 ## Analisis
 
 **Perintah:** `DELETE FROM pelanggan`
@@ -227,7 +231,8 @@ drop table pelanggan;
 
 ## Hasil
 
-![[Screenshot_20240504_214216.jpg]]
+![Hapus](hapus.jpg)
+
 ## Analisis
 
 "drop table pelanggan;" adalah tentang perintah SQL untuk menghapus tabel bernama "pelanggan" dari database.

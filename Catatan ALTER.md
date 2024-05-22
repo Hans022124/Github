@@ -12,7 +12,7 @@ ALTER TABLE DESC_mobil ADD batas_peminjaman varchar(10) AFTER peminjam;
 
 ### Hasil
 
-![Screenshot_20240515_073255.jpg](asetalter/tambahkolomm.jpg)
+![Screenshot_20240515_073255.jpg](tambahkolomm.jpg)
 
 ### Analisis
 - `ALTER TABLE mobil`: Perintah untuk mengubah struktur tabel `mobil`.
@@ -35,7 +35,8 @@ ALTER TABLE DESC_mobil CHANGE COLUMN batas_peminjaman deadline varchar(10);
 ```
 
 ### Hasil
-![Screenshot_20240515_074125.jpg](asetalter/ubahkolomm.jpg)
+
+![Screenshot_20240515_074125.jpg](ubahkolomm.jpg)
 
 ### Analisis
 - `ALTER TABLE mobil`: Perintah untuk mengubah struktur tabel `mobil`.
@@ -60,8 +61,7 @@ ALTER TABLE DESC_mobil MODIFY deadline DATE;
 
 ### Hasil
 
-![Screenshot_20240515_075134.jpg](asetalter/datee.jpg)
-
+![Screenshot_20240515_075134.jpg](datee.jpg)
 
 ### Analisis
 - `ALTER TABLE mobil`: Perintah untuk mengubah struktur tabel `mobil`.
@@ -84,7 +84,8 @@ ALTER TABLE DESC_mobil ALTER deadline SET DEFAULT 'Ready';
 ```
 
 ### Hasil
-![Screenshot_20240515_074428.jpg](asetalter/readyy.jpg)
+
+![Screenshot_20240515_074428.jpg](readyy.jpg)
 
 ### Analisis
 - `ALTER TABLE mobil`: Perintah untuk mengubah struktur tabel `mobil`.
@@ -105,7 +106,8 @@ ALTER TABLE DESC_mobil ALTER deadline DROP DEFAULT;
 ```
 
 ### Hasil
-![Screenshot_20240515_074832.jpg](asetalter/defaul.jpg)
+
+![Screenshot_20240515_074832.jpg](defaul.jpg)
 
 ### Analisis
 - `ALTER TABLE mobil`: Perintah untuk mengubah struktur tabel `mobil`.
@@ -127,14 +129,20 @@ ALTER TABLE DESC_mobil DROP COLUMN deadline;
 ```
 
 ### Hasil
-![Screenshot_20240515_075345.jpg](asetalter/hapuss.jpg)
+
+![Screenshot_20240515_075345.jpg](hapuss.jpg)
 
 ### Analisis
-- `ALTER TABLE mobil`: Perintah untuk mengubah struktur tabel `mobil`.
-- `DROP COLUMN deadline`: Menghapus kolom `deadline` dari tabel `mobil`.
+1. **Perintah SQL**: `ALTER TABLE` adalah perintah SQL yang digunakan untuk mengubah struktur dari tabel yang ada dalam database.
+    
+2. **Tabel yang Diubah**: `DESC_mobil` adalah nama tabel yang saat ini ada di dalam database.
+    
+3. **Perubahan yang Dilakukan**: `RENAME TO` adalah bagian dari perintah `ALTER TABLE` yang digunakan untuk mengganti nama tabel.
+    
+4. **Nama Tabel Baru**: `data_mobil` adalah nama baru yang akan diberikan kepada tabel `DESC_mobil`.
 
 > [!summary]- Kesimpulan
-> Perintah ini menghapus kolom `deadline` dari tabel `mobil`. Setelah perintah ini dijalankan, kolom `deadline` akan dihapus dari struktur tabel `mobil` dan tidak akan lagi tersedia untuk digunakan.
+> Digunakan untuk menghapus kolom `deadline` dari tabel `DESC_mobil`. Ini berarti data dalam kolom tersebut akan hilang secara permanen, dan struktur tabel akan diubah untuk tidak lagi menyertakan kolom tersebut. Perintah ini harus digunakan dengan hati-hati, memastikan bahwa data penting tidak hilang dan bahwa semua query atau aplikasi yang bergantung pada kolom tersebut diperbarui sesuai kebutuhan. Backup data sebelum melakukan perubahan struktural ini adalah langkah yang sangat direkomendasikan.
 
 ## Mengganti nama table
 ### Struktur query
@@ -149,11 +157,16 @@ ALTER TABLE DESC_mobil RENAME TO data_mobil;
 
 ### Hasil
 
-![Screenshot_20240515_075555.jpg](asetalter/tabell.jpg)
+![Ganti tabel](tabell.jpg)
 ### Analisis
-- `ALTER TABLE mobil`: Perintah untuk mengubah tabel dengan nama `mobil`.
-- `RENAME TO data_mobil`: Mengubah nama tabel `mobil` menjadi `data_mobil`.
+1. **Perintah SQL**: `ALTER TABLE` adalah perintah SQL yang digunakan untuk mengubah struktur dari tabel yang ada dalam database.
+    
+2. **Tabel yang Diubah**: `DESC_mobil` adalah nama tabel yang saat ini ada di dalam database.
+    
+3. **Perubahan yang Dilakukan**: `RENAME TO` adalah bagian dari perintah `ALTER TABLE` yang digunakan untuk mengganti nama tabel.
+    
+4. **Nama Tabel Baru**: `data_mobil` adalah nama baru yang akan diberikan kepada tabel `DESC_mobil`.
 
 > [!summary]- Kesimpulan
-> Perintah ini mengubah nama tabel `mobil` menjadi `data_mobil`. Setelah perintah ini dijalankan, tabel tersebut akan dapat diakses dengan nama baru `data_mobil` dan tidak lagi dengan nama `mobil`.
+> Kesimpulannya adalah perintah SQL tersebut digunakan untuk mengganti nama sebuah tabel dari "nama_table_lama" menjadi "nama_table_baru". Dengan menjalankan perintah ini, struktur dan data tabel tetap sama, hanya nama tabel yang berubah.
 
